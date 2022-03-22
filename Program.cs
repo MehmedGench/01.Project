@@ -8,7 +8,7 @@ namespace _3._SoftUni_Bar_Income
     {
         static void Main(string[] args)
         {
-            decimal totalIncome = 0m;
+            decimal totalIncome = 0m;//
             string pattern = @"\%(?<client>[A-Z]{1}[a-z]+)\%[^%$|.]*?\<(?<product>\w+)\>[^%$|.]*?\|(?<count>\d+)\|[^%$|.]*?(?<price>\d+(\.\d+)?)\$";
 
             string input;
